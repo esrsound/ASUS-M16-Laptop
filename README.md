@@ -8,11 +8,7 @@ https://raw.githubusercontent.com/xddxdd/pkgbuild/master/linux-xanmod-lantian/00
 Fetch the kernel build files:
 `yay -G linux-lts` or linux if you on main arch kernel
 
-`$ cd linux-lts`
-type `makepkg -o` to have it fetch and unpack the kernel sources.
-
 `$ cd linux-lts/repos/core-x86_64`
-
 
 type `makepkg -o` to have it fetch and unpack the kernel sources. 
 
