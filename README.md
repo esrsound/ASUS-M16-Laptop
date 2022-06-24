@@ -36,6 +36,7 @@ Patch the i915 module:
 Run `make menuconfig` and exit  (you will need kernel headers, so install it `pacman -S linux-headers linux-lts-headers`)
 
 `$ make modules_prepare `
+
 `$ make M=drivers/gpu/drm/i915`
 
 Next, compress your new module:
