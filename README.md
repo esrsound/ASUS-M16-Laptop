@@ -3,7 +3,7 @@
 Kernel patch to support 165Hz:
 https://raw.githubusercontent.com/xddxdd/pkgbuild/master/linux-xanmod-lantian/0003-intel-drm-use-max-clock.patch
 
-## How to patch kernel?
+## How to patch kernel for 165hz support?
 
 Fetch the kernel build files ( yay -G linux-lts)
 `$ cd linux-lts`
