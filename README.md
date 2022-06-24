@@ -33,7 +33,7 @@ Patch the i915 module:
 
 `$ patch -p1 < 0003-intel-drm-use-max-clock.patch`
 
-Run `make menuconfig` and exit  (you will need kernel headers, so install it pacman -S linux-headers linux-lts-headers)
+Run `make menuconfig` and exit  (you will need kernel headers, so install it `pacman -S linux-headers linux-lts-headers`)
 
 `$ make modules_prepare `
 `$ make M=drivers/gpu/drm/i915`
