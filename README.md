@@ -19,6 +19,7 @@ Import gpg key for kernel-lts or kernel:
 
 Copy linux-lts default config to src/.config
 `$ cp config src/.config `
+
 `$ cd src/linux-5.15.49/ `
  
 Download patch for 165Hz
